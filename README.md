@@ -13,3 +13,16 @@ Using knowledge of Pandas and the Scikit-Learn’s StandardScaler(), I preproces
 
 ### Deliverable 2: Compile, Train, and Evaluate the Model <br/>
 Using knowledge of TensorFlow, I designed a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. <br/>
+### Deliverable 3: Optimize the Model <br/>
+Deep learning model was able to predict correctly whether or not a applicants will be successful if funded by Alphabet Soup 72.57% of the time. <br/>
+![pic1](https://user-images.githubusercontent.com/110998103/207823939-cabb4093-f59e-4d7d-b232-2ce550361f66.png)
+Using knowledge of TensorFlow,I tried to optimize my model in order to achieve a target predictive accuracy higher than 75%. <br/>
+First, to increase model performance, I added third layer  . That didn't work. <br/>
+![adding_3layer](https://user-images.githubusercontent.com/110998103/207823534-8a052597-a891-4d83-97fc-86099134ddb6.png)
+The next step I took was to add more neurons to each layer. It slightly increased Accuracy to 72.61% <br/>
+
+![pic4](https://user-images.githubusercontent.com/110998103/207823234-7db3df35-0960-436a-abb5-b3495e6611ea.png)
+Ang the last step I did was increasing epoch numbers. Unfortunately, it didn't work either. <br/>
+![image](https://user-images.githubusercontent.com/110998103/207825105-a2ea7ca9-62b8-45c0-8f42-bb6c144b383b.png)
+
+##  `Summary` <br/>
