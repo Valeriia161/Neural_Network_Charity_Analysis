@@ -26,3 +26,15 @@ Ang the last step I did was increasing epoch numbers. Unfortunately, it didn't w
 ![image](https://user-images.githubusercontent.com/110998103/207825105-a2ea7ca9-62b8-45c0-8f42-bb6c144b383b.png)
 
 ##  `Summary` <br/>
+Looking at the training metrics of my model, as I increase the number of neurons within the hidden layer, the classification accuracy improves. It been noticeable that adding multiple neurons to my neural network did not yield a perfect classification model. As input data becomes more complex, neural networks will require more and more optimization tweaks to achieve their desired accuracy. <br/>
+The most straightforward means of improving neural network performance is tweaking the model design and parameters. <br/>
+
+When it comes to tweaking a neural network model, a little can go a long way. If we tweak too many design aspects and parameters at once, we can cause a model to become less effective without a means of understanding why. To avoid trapping ourselves in endless optimization iterations, we can use characteristics of our input data to determine what parameters should be changed. <br/>
+
+There are a few means of optimizing a neural network: <br/>
+
+-	Check out your input dataset. <br/>
+-	Add more neurons to a hidden layer. <br/>
+-	Add additional hidden layers. <br/>
+-	Use a different activation function for the hidden layers. <br/>
+-	Add additional epochs to the training regimen. <br/>
