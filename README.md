@@ -18,7 +18,8 @@ Deep learning model was able to predict correctly whether or not a applicants wi
 ![pic1](https://user-images.githubusercontent.com/110998103/207823939-cabb4093-f59e-4d7d-b232-2ce550361f66.png)
 Using knowledge of TensorFlow,I tried to optimize my model in order to achieve a target predictive accuracy higher than 75%. <br/>
 First, to increase model performance, I added third layer  . That didn't work. <br/>
-![adding_3layer](https://user-images.githubusercontent.com/110998103/207823534-8a052597-a891-4d83-97fc-86099134ddb6.png)
+![image](https://user-images.githubusercontent.com/110998103/207832272-58f41922-b12c-4602-939a-363bb5966371.png)
+
 The next step I took was to add more neurons to each layer. It slightly increased Accuracy to 72.61% <br/>
 
 ![pic4](https://user-images.githubusercontent.com/110998103/207823234-7db3df35-0960-436a-abb5-b3495e6611ea.png)
